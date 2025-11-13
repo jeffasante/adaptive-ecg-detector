@@ -1,6 +1,8 @@
 # ECG Anomaly Detector
 
-**Real-time cardiac arrhythmia detection using hybrid CNN-Transformer architecture** - 90.6% accuracy on clinical ECG data with adaptive retraining and INT8 quantization for edge deployment.
+A machine learning system for detecting cardiac arrhythmias from ECG signals using a hybrid CNN-Transformer architecture.
+
+## Overview
 
 This project implements a deep learning model that analyzes 3-second windows of two-lead ECG signals to classify five types of cardiac rhythms: normal beats, premature ventricular contractions (PVC), premature atrial contractions (PAC), left bundle branch block (LBBB), and right bundle branch block (RBBB).
 
