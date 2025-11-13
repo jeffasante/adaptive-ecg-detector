@@ -197,6 +197,15 @@ cython_debug/
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+# Dataset (downloaded from PhysioNet)
+data/
+physionet.org/
+
+# Model checkpoints and artifacts
+*.pth
+*.pkl
+*.h5
+
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
